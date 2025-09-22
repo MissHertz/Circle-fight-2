@@ -1,4 +1,6 @@
 #include <raylib.h>
+
+
 // Global Variables
 float windowWidth = 1800;
 float windowHeight = 950;

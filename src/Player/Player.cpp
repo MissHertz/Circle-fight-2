@@ -1,4 +1,5 @@
 #include <raylib.h>
+#include "Player.h"
 
 // Global Variables
 float windowWidth = 1800;

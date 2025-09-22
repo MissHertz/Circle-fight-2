@@ -19,8 +19,6 @@
     <None Include="Makefile" />
     <None Include="lib\libgcc_s_dw2-1.dll" />
     <None Include="lib\libstdc++-6.dll" />
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -46,8 +44,5 @@
     <ClInclude Include="src\Walls\Walls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="lib\raylib.lib" />
   </ItemGroup>
 </Project>

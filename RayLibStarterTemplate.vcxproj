@@ -136,13 +136,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="lib\libgcc_s_dw2-1.dll" />
     <None Include="lib\libstdc++-6.dll" />
     <None Include="main.code-workspace" />
     <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Enemy\Enemy.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Player\Player.cpp" />
+    <ClCompile Include="src\Walls\Walls.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Enemy\Enemy.h" />
+    <ClInclude Include="src\Player\Player.h" />
+    <ClInclude Include="src\Walls\Walls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\raylib.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

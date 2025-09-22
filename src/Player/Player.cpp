@@ -94,9 +94,9 @@ void PlayerController()
 }
 bool IsPlayerInBounds()
 {
-	bool withinXBounds = playerXPosition >= 0 && playerXPosition <= windowWidth ? true : false;
+	bool withinXBounds = playerXPosition >= 0 || playerXPosition <= windowWidth ? true : false;
 
-	bool withinYBounds = playerYPosition >= 0 && playerYPosition <= windowHeight ? true : false;
+	bool withinYBounds = playerYPosition >= 0 || playerYPosition <= windowHeight ? true : false;
 
 	return withinXBounds && withinYBounds;
 }

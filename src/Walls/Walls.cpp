@@ -1,5 +1,5 @@
 #include "Walls.h"
-
+#include "raylib.h"
 
 
 void Walls::RenderWall(int inXPosition, int inYPosition)
